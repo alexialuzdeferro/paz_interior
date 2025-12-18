@@ -1,25 +1,115 @@
-Meditação & Paz Interior 🧘‍♀️
-Uma página HTML simples e relaxante com vídeos guiados de meditação e músicas para promover a paz interior e o relaxamento.
-Pessoa meditando na floresta com luz solar, simbolizando tranquilidade e conexão com a natureza
-Descrição
-Esta é uma página web estática dedicada a momentos de tranquilidade. Ela apresenta uma coleção de vídeos do YouTube embedados, focados em meditações guiadas e músicas relaxantes. O design é clean, com fundo gradiente roxo, efeitos de sombra e responsividade para dispositivos móveis.
-O script JavaScript integrado garante que apenas um vídeo seja reproduzido por vez, pausando os outros automaticamente.
-Meditação guiada para paz interior
-Funcionalidades
+# Meditação & Paz Interior
 
-Header com título estilizado e subtítulo.
-Grid de 6 vídeos do YouTube em cards responsivos.
-Reprodução controlada: apenas um vídeo toca ao mesmo tempo.
-Design moderno com transições hover e backdrop blur.
-Totalmente responsivo (adapta-se a telas menores).
+Projeto front-end estático desenvolvido em **HTML, CSS e JavaScript** para oferecer uma experiência visual elegante e responsiva focada em **relaxamento, meditação e paz interior**.
 
-Música relaxante para meditação zen
-Vídeos Inclusos
-Aqui estão os vídeos embedados (IDs do YouTube):
+A aplicação apresenta uma curadoria de vídeos do YouTube organizados em cartões modernos, com controle inteligente de reprodução para evitar múltiplos áudios simultâneos.
 
-https://www.youtube.com/embed/T59guY2g208
-https://www.youtube.com/embed/B6mQUzmlZAo
-https://www.youtube.com/embed/TPH5ynw5ukM
-https://www.youtube.com/embed/ZNr-Jl4MZcw
-https://www.youtube.com/embed/28szq1vC7OY
-https://www.youtube.com/embed/jl7zmFPjUZk
+---
+
+## Visão Geral
+
+**Meditação & Paz Interior** foi concebido para ser simples de usar, visualmente acolhedor e tecnicamente leve. Ideal para páginas pessoais, landing pages de bem-estar, espiritualidade, mindfulness ou relaxamento.
+
+---
+
+## Funcionalidades
+
+* Layout moderno com **design glassmorphism**
+* Fundo em **gradiente roxo relaxante**
+* Totalmente **responsivo** (desktop, tablet e mobile)
+* Grid adaptativo de vídeos
+* Integração com **YouTube IFrame API**
+* Reprodução inteligente:
+
+  * Ao iniciar um vídeo, os demais são pausados automaticamente
+* Estrutura limpa e fácil de personalizar
+
+---
+
+## Tecnologias Utilizadas
+
+* HTML5
+* CSS3 (Grid, Flexbox, Media Queries)
+* JavaScript (Vanilla)
+* YouTube IFrame API
+
+---
+
+## Estrutura do Projeto
+
+```
+/meditacao-paz-interior
+│
+├── index.html
+└── README.md
+```
+
+Todo o código está concentrado em um único arquivo HTML, facilitando deploy e manutenção.
+
+---
+
+## Como Utilizar
+
+1. Faça o download ou clone este repositório
+2. Abra o arquivo `index.html` em qualquer navegador moderno
+3. Clique em um vídeo para iniciar a meditação
+4. Aproveite o momento de tranquilidade
+
+Não é necessário servidor ou dependências externas além do YouTube.
+
+---
+
+## Personalização
+
+Você pode facilmente adaptar o projeto:
+
+### Alterar os vídeos
+
+Substitua os links dos `iframe` pelo ID de qualquer vídeo do YouTube:
+
+```html
+https://www.youtube.com/embed/ID_DO_VIDEO?enablejsapi=1
+```
+
+### Alterar cores e estilo
+
+As principais configurações visuais estão no bloco `<style>`:
+
+* Gradiente de fundo
+* Tipografia
+* Sombras e bordas
+
+### Alterar título e subtítulo
+
+Edite diretamente no HTML:
+
+```html
+<h1>Meditação & Paz Interior</h1>
+<p class="subtitle">Encontre seu momento de tranquilidade e relaxamento</p>
+```
+
+---
+
+## Compatibilidade
+
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+* Safari
+
+Compatível com dispositivos móveis.
+
+---
+
+## Licença
+
+Este projeto é de uso livre para fins pessoais, educacionais ou espirituais.
+Sinta-se à vontade para adaptar, estudar e compartilhar.
+
+---
+
+## Mensagem Final
+
+Respire fundo, desacelere e permita-se viver este momento de presença e serenidade.
+
+🙏
